@@ -54,3 +54,14 @@ figure:nth-child(3) {
   transform: rotate(29deg);
   z-index: 2;
 }
+
+figcaption {
+  text-align: center;
+
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+  z-index: 4;
+  filter: drop-shadow(2px 5px 10px #000)
+}
